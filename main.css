@@ -1,0 +1,194 @@
+
+html {
+   background-color: none;
+}
+body{
+    background-image: url(https://directlinedev.com/media/portfolio/cases/background/background_66.wide.jpeg);
+    font-family: fantasy;
+    background-size: cover;
+    background-position: none;
+    height: 170vh;
+}
+body {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-areas: "header"
+						 "articles aside";
+	grid-column-gap: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	max-width: 960px;
+	min-width: 640px;
+	background-color: none;
+	font-family: "Helvetica", "Calibri", "Palatino Linotype";  
+}
+h1 {
+    background-color: rgba(256,256,256, 0.5);
+}
+h2 {
+    background-color: azure;
+}
+
+}
+section {
+    background-color: rgba(256,256,256, 0.5);
+}
+article{
+    background-color: rgba(256,256,256, 0.5);
+}
+header {
+	grid-row: 1;
+	grid-column: 1/-1;
+}
+
+body > header > img {
+	display: block;
+	width: 40%;
+}
+
+body > header > nav li {
+   width: 20%;
+}
+
+nav > ul {
+    background-color: rgba(256,256,256, 0.5);
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+nav > ul > li {
+	float: left;
+}
+
+nav > ul > li a {
+	display: block;
+	color: black;
+	font: bold 1.1em/1.0em Calibri;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav > ul > li a:hover {
+	background-color: white;
+} 
+
+h1 {
+	text-indent: 1em;
+}
+
+body > header > h1 {
+	font: italic 2.0em/1.0em Palatino Linotype;
+	letter-spacing: 0.2em;
+	text-align: center;
+	color: white;
+}
+
+p {
+	margin: 1em;
+	font-size: 0.9em;
+}
+
+img {
+	width: 90%;
+	display: block;
+}
+
+aside {
+    background-color: rgba(256,256,256, 0.5);
+	padding-bottom: 1em;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  resize: none;
+}
+
+input[type=submit], input[type=reset] {
+	background-color: none;
+	color: black;
+	border: none;
+	padding: 16px 12px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+form {
+	background-color: none;
+	color: black;
+}
+
+form > textarea {
+	background-color: none;
+}
+
+form > input {
+	background-color: none;
+}
+
+div.gallery {
+	margin: 5px;
+	border: 1px solid #000;
+	float: left;
+	width: 290px;
+}
+
+div.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
+
+.accordion {
+	background-color: rgba(256,256,256, 0.5);
+	color: black;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	text-align: center;
+	border: none;
+	outline: none;
+}
+
+.accordion-body {
+	background-color: none;
+	color: black;
+	cursor: pointer;
+	padding: 4px;
+	text-align: center;
+}
+
+.accordion-button {
+	background-color: none;
+	color: black;
+}
+
+.card {
+	background-color: none;
+	margin: 5px;
+	border: 1px solid #000;
+	float: left;
+	width: 290px;
+}
+
+.card-title {
+	text-align: center;
+	color: black;
+}
+
+.card-text {
+	text-align: left;
+	color: black;
+	padding: 4px;
+}
